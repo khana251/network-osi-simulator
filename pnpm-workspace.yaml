@@ -1,0 +1,8 @@
+# Optional native binaries are supplied as platform packages. This browser-only
+# project does not need dependency lifecycle scripts to run.
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false
+enableGlobalVirtualStore: false
+storeDir: .cache/pnpm-store
